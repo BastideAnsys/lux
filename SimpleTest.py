@@ -6,8 +6,8 @@ root.minsize(200, 200)
 root.maxsize(500, 500)
 root.geometry("300x300+50+50")
 
-# Add red button
-bouton = tk.Button(root, text="Cliquez ici", background="red", fg="white")
+# Add BLue button
+bouton = tk.Button(root, text="Cliquez ici", background="Blue", fg="white")
 bouton.pack(pady=20)  # Display vertical
 
 root.mainloop()
